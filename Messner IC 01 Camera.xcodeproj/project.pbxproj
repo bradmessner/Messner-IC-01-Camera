@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7A1E79924457D5200F3FCDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A1E79824457D5200F3FCDF /* AppDelegate.swift */; };
+		B7A1E79B24457D5200F3FCDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A1E79A24457D5200F3FCDF /* SceneDelegate.swift */; };
+		B7A1E79D24457D5200F3FCDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A1E79C24457D5200F3FCDF /* ViewController.swift */; };
+		B7A1E7A024457D5200F3FCDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A1E79E24457D5200F3FCDF /* Main.storyboard */; };
+		B7A1E7A224457D5600F3FCDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A1E7A124457D5600F3FCDF /* Assets.xcassets */; };
+		B7A1E7A524457D5600F3FCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A1E7A324457D5600F3FCDF /* LaunchScreen.storyboard */; };
+		B7A1E7B024457D5600F3FCDF /* Messner_IC_01_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A1E7AF24457D5600F3FCDF /* Messner_IC_01_CameraTests.swift */; };
+		B7A1E7BB24457D5600F3FCDF /* Messner_IC_01_CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A1E7BA24457D5600F3FCDF /* Messner_IC_01_CameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7A1E7AC24457D5600F3FCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A1E78D24457D5200F3FCDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A1E79424457D5200F3FCDF;
+			remoteInfo = "Messner IC 01 Camera";
+		};
+		B7A1E7B724457D5600F3FCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A1E78D24457D5200F3FCDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A1E79424457D5200F3FCDF;
+			remoteInfo = "Messner IC 01 Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7A1E79524457D5200F3FCDF /* Messner IC 01 Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messner IC 01 Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A1E79824457D5200F3FCDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7A1E79A24457D5200F3FCDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7A1E79C24457D5200F3FCDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7A1E79F24457D5200F3FCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7A1E7A124457D5600F3FCDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7A1E7A424457D5600F3FCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7A1E7A624457D5600F3FCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A1E7AB24457D5600F3FCDF /* Messner IC 01 CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner IC 01 CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A1E7AF24457D5600F3FCDF /* Messner_IC_01_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_IC_01_CameraTests.swift; sourceTree = "<group>"; };
+		B7A1E7B124457D5600F3FCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A1E7B624457D5600F3FCDF /* Messner IC 01 CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner IC 01 CameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A1E7BA24457D5600F3FCDF /* Messner_IC_01_CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_IC_01_CameraUITests.swift; sourceTree = "<group>"; };
+		B7A1E7BC24457D5600F3FCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7A1E79224457D5200F3FCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A1E7A824457D5600F3FCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A1E7B324457D5600F3FCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7A1E78C24457D5200F3FCDF = {
+			isa = PBXGroup;
+			children = (
+				B7A1E79724457D5200F3FCDF /* Messner IC 01 Camera */,
+				B7A1E7AE24457D5600F3FCDF /* Messner IC 01 CameraTests */,
+				B7A1E7B924457D5600F3FCDF /* Messner IC 01 CameraUITests */,
+				B7A1E79624457D5200F3FCDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7A1E79624457D5200F3FCDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7A1E79524457D5200F3FCDF /* Messner IC 01 Camera.app */,
+				B7A1E7AB24457D5600F3FCDF /* Messner IC 01 CameraTests.xctest */,
+				B7A1E7B624457D5600F3FCDF /* Messner IC 01 CameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A1E79724457D5200F3FCDF /* Messner IC 01 Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B7A1E79824457D5200F3FCDF /* AppDelegate.swift */,
+				B7A1E79A24457D5200F3FCDF /* SceneDelegate.swift */,
+				B7A1E79C24457D5200F3FCDF /* ViewController.swift */,
+				B7A1E79E24457D5200F3FCDF /* Main.storyboard */,
+				B7A1E7A124457D5600F3FCDF /* Assets.xcassets */,
+				B7A1E7A324457D5600F3FCDF /* LaunchScreen.storyboard */,
+				B7A1E7A624457D5600F3FCDF /* Info.plist */,
+			);
+			path = "Messner IC 01 Camera";
+			sourceTree = "<group>";
+		};
+		B7A1E7AE24457D5600F3FCDF /* Messner IC 01 CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A1E7AF24457D5600F3FCDF /* Messner_IC_01_CameraTests.swift */,
+				B7A1E7B124457D5600F3FCDF /* Info.plist */,
+			);
+			path = "Messner IC 01 CameraTests";
+			sourceTree = "<group>";
+		};
+		B7A1E7B924457D5600F3FCDF /* Messner IC 01 CameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A1E7BA24457D5600F3FCDF /* Messner_IC_01_CameraUITests.swift */,
+				B7A1E7BC24457D5600F3FCDF /* Info.plist */,
+			);
+			path = "Messner IC 01 CameraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7A1E79424457D5200F3FCDF /* Messner IC 01 Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A1E7BF24457D5600F3FCDF /* Build configuration list for PBXNativeTarget "Messner IC 01 Camera" */;
+			buildPhases = (
+				B7A1E79124457D5200F3FCDF /* Sources */,
+				B7A1E79224457D5200F3FCDF /* Frameworks */,
+				B7A1E79324457D5200F3FCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Messner IC 01 Camera";
+			productName = "Messner IC 01 Camera";
+			productReference = B7A1E79524457D5200F3FCDF /* Messner IC 01 Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7A1E7AA24457D5600F3FCDF /* Messner IC 01 CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A1E7C224457D5600F3FCDF /* Build configuration list for PBXNativeTarget "Messner IC 01 CameraTests" */;
+			buildPhases = (
+				B7A1E7A724457D5600F3FCDF /* Sources */,
+				B7A1E7A824457D5600F3FCDF /* Frameworks */,
+				B7A1E7A924457D5600F3FCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A1E7AD24457D5600F3FCDF /* PBXTargetDependency */,
+			);
+			name = "Messner IC 01 CameraTests";
+			productName = "Messner IC 01 CameraTests";
+			productReference = B7A1E7AB24457D5600F3FCDF /* Messner IC 01 CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7A1E7B524457D5600F3FCDF /* Messner IC 01 CameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A1E7C524457D5600F3FCDF /* Build configuration list for PBXNativeTarget "Messner IC 01 CameraUITests" */;
+			buildPhases = (
+				B7A1E7B224457D5600F3FCDF /* Sources */,
+				B7A1E7B324457D5600F3FCDF /* Frameworks */,
+				B7A1E7B424457D5600F3FCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A1E7B824457D5600F3FCDF /* PBXTargetDependency */,
+			);
+			name = "Messner IC 01 CameraUITests";
+			productName = "Messner IC 01 CameraUITests";
+			productReference = B7A1E7B624457D5600F3FCDF /* Messner IC 01 CameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7A1E78D24457D5200F3FCDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Brad D. Messner";
+				TargetAttributes = {
+					B7A1E79424457D5200F3FCDF = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					B7A1E7AA24457D5600F3FCDF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B7A1E79424457D5200F3FCDF;
+					};
+					B7A1E7B524457D5600F3FCDF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B7A1E79424457D5200F3FCDF;
+					};
+				};
+			};
+			buildConfigurationList = B7A1E79024457D5200F3FCDF /* Build configuration list for PBXProject "Messner IC 01 Camera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7A1E78C24457D5200F3FCDF;
+			productRefGroup = B7A1E79624457D5200F3FCDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7A1E79424457D5200F3FCDF /* Messner IC 01 Camera */,
+				B7A1E7AA24457D5600F3FCDF /* Messner IC 01 CameraTests */,
+				B7A1E7B524457D5600F3FCDF /* Messner IC 01 CameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7A1E79324457D5200F3FCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A1E7A524457D5600F3FCDF /* LaunchScreen.storyboard in Resources */,
+				B7A1E7A224457D5600F3FCDF /* Assets.xcassets in Resources */,
+				B7A1E7A024457D5200F3FCDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A1E7A924457D5600F3FCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A1E7B424457D5600F3FCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7A1E79124457D5200F3FCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A1E79D24457D5200F3FCDF /* ViewController.swift in Sources */,
+				B7A1E79924457D5200F3FCDF /* AppDelegate.swift in Sources */,
+				B7A1E79B24457D5200F3FCDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A1E7A724457D5600F3FCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A1E7B024457D5600F3FCDF /* Messner_IC_01_CameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A1E7B224457D5600F3FCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A1E7BB24457D5600F3FCDF /* Messner_IC_01_CameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7A1E7AD24457D5600F3FCDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A1E79424457D5200F3FCDF /* Messner IC 01 Camera */;
+			targetProxy = B7A1E7AC24457D5600F3FCDF /* PBXContainerItemProxy */;
+		};
+		B7A1E7B824457D5600F3FCDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A1E79424457D5200F3FCDF /* Messner IC 01 Camera */;
+			targetProxy = B7A1E7B724457D5600F3FCDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7A1E79E24457D5200F3FCDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A1E79F24457D5200F3FCDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7A1E7A324457D5600F3FCDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A1E7A424457D5600F3FCDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7A1E7BD24457D5600F3FCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7A1E7BE24457D5600F3FCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7A1E7C024457D5600F3FCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner IC 01 Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-IC-01-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7A1E7C124457D5600F3FCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner IC 01 Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-IC-01-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7A1E7C324457D5600F3FCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner IC 01 CameraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-IC-01-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner IC 01 Camera.app/Messner IC 01 Camera";
+			};
+			name = Debug;
+		};
+		B7A1E7C424457D5600F3FCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner IC 01 CameraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-IC-01-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner IC 01 Camera.app/Messner IC 01 Camera";
+			};
+			name = Release;
+		};
+		B7A1E7C624457D5600F3FCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner IC 01 CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-IC-01-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner IC 01 Camera";
+			};
+			name = Debug;
+		};
+		B7A1E7C724457D5600F3FCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner IC 01 CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-IC-01-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner IC 01 Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7A1E79024457D5200F3FCDF /* Build configuration list for PBXProject "Messner IC 01 Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A1E7BD24457D5600F3FCDF /* Debug */,
+				B7A1E7BE24457D5600F3FCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A1E7BF24457D5600F3FCDF /* Build configuration list for PBXNativeTarget "Messner IC 01 Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A1E7C024457D5600F3FCDF /* Debug */,
+				B7A1E7C124457D5600F3FCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A1E7C224457D5600F3FCDF /* Build configuration list for PBXNativeTarget "Messner IC 01 CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A1E7C324457D5600F3FCDF /* Debug */,
+				B7A1E7C424457D5600F3FCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A1E7C524457D5600F3FCDF /* Build configuration list for PBXNativeTarget "Messner IC 01 CameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A1E7C624457D5600F3FCDF /* Debug */,
+				B7A1E7C724457D5600F3FCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7A1E78D24457D5200F3FCDF /* Project object */;
+}
